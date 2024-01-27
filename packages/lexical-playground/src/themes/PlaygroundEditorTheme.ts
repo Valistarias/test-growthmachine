@@ -114,6 +114,7 @@ const theme: EditorThemeClasses = {
     underline: 'PlaygroundEditorTheme__textUnderline',
     underlineStrikethrough: 'PlaygroundEditorTheme__textUnderlineStrikethrough',
   },
+  victor: 'PlaygroundEditorTheme__victor',
 };
 
 export default theme;

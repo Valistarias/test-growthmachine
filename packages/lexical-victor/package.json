@@ -1,0 +1,24 @@
+{
+  "name": "@lexical/victor",
+  "description": "This package contains the functionality for Lexical victor.",
+  "keywords": [
+    "victor",
+    "editor",
+    "rich-text",
+    "hashtag"
+  ],
+  "license": "MIT",
+  "version": "0.13.1",
+  "main": "LexicalVictor.js",
+  "peerDependencies": {
+    "lexical": "0.13.1"
+  },
+  "dependencies": {
+    "@lexical/utils": "0.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/lexical",
+    "directory": "packages/lexical-victor"
+  }
+}

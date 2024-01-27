@@ -46,9 +46,9 @@ module.exports = {
           '<rootDir>/packages/lexical-overflow/src/index.ts',
         '^@lexical/plain-text$':
           '<rootDir>/packages/lexical-plain-text/src/index.ts',
-
         '^@lexical/react/LexicalAutoEmbedPlugin$':
           '<rootDir>/packages/lexical-react/src/LexicalAutoEmbedPlugin.tsx',
+
         '^@lexical/react/LexicalAutoLinkPlugin$':
           '<rootDir>/packages/lexical-react/src/LexicalAutoLinkPlugin.ts',
         '^@lexical/react/LexicalCheckListPlugin$':
@@ -88,6 +88,7 @@ module.exports = {
         '^@lexical/table$': '<rootDir>/packages/lexical-table/src/index.ts',
         '^@lexical/text$': '<rootDir>/packages/lexical-text/src/index.ts',
         '^@lexical/utils$': '<rootDir>/packages/lexical-utils/src/index.ts',
+        '^@lexical/victor$': '<rootDir>/packages/lexical-victor/src/index.ts',
         '^@lexical/yjs$': '<rootDir>/packages/lexical-yjs/src/index.ts',
         '^lexical$': '<rootDir>/packages/lexical/src/index.ts',
         '^shared/canUseDOM$': '<rootDir>/packages/shared/src/canUseDOM.ts',

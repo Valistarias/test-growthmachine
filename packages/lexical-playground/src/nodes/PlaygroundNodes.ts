@@ -17,6 +17,7 @@ import {OverflowNode} from '@lexical/overflow';
 import {HorizontalRuleNode} from '@lexical/react/LexicalHorizontalRuleNode';
 import {HeadingNode, QuoteNode} from '@lexical/rich-text';
 import {TableCellNode, TableNode, TableRowNode} from '@lexical/table';
+import {VictorNode} from '@lexical/victor';
 
 import {CollapsibleContainerNode} from '../plugins/CollapsiblePlugin/CollapsibleContainerNode';
 import {CollapsibleContentNode} from '../plugins/CollapsiblePlugin/CollapsibleContentNode';
@@ -48,6 +49,7 @@ const PlaygroundNodes: Array<Klass<LexicalNode>> = [
   TableCellNode,
   TableRowNode,
   HashtagNode,
+  VictorNode,
   CodeHighlightNode,
   AutoLinkNode,
   LinkNode,

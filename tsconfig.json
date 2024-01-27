@@ -20,6 +20,7 @@
       "@lexical/table": ["./packages/lexical-table/src/"],
       "@lexical/file": ["./packages/lexical-file/src/"],
       "@lexical/hashtag": ["./packages/lexical-hashtag/src/"],
+      "@lexical/victor": ["./packages/lexical-victor/src/"],
       "@lexical/selection": ["./packages/lexical-selection/src/"],
       "@lexical/text": ["./packages/lexical-text/src/"],
       "@lexical/offset": ["./packages/lexical-offset/src/"],

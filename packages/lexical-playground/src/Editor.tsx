@@ -21,6 +21,7 @@ import {PlainTextPlugin} from '@lexical/react/LexicalPlainTextPlugin';
 import {RichTextPlugin} from '@lexical/react/LexicalRichTextPlugin';
 import {TabIndentationPlugin} from '@lexical/react/LexicalTabIndentationPlugin';
 import {TablePlugin} from '@lexical/react/LexicalTablePlugin';
+import {VictorPlugin} from '@lexical/react/LexicalVictorPlugin';
 import useLexicalEditable from '@lexical/react/useLexicalEditable';
 import * as React from 'react';
 import {useEffect, useState} from 'react';
@@ -146,6 +147,7 @@ export default function Editor(): JSX.Element {
         <MentionsPlugin />
         <EmojisPlugin />
         <HashtagPlugin />
+        <VictorPlugin />
         <KeywordsPlugin />
         <SpeechToTextPlugin />
         <AutoLinkPlugin />

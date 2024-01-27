@@ -44,6 +44,10 @@ const moduleResolution = [
     replacement: path.resolve('../lexical-hashtag/src/index.ts'),
   },
   {
+    find: '@lexical/victor',
+    replacement: path.resolve('../lexical-victor/src/index.ts'),
+  },
+  {
     find: '@lexical/history',
     replacement: path.resolve('../lexical-history/src/index.ts'),
   },
@@ -127,6 +131,7 @@ const moduleResolution = [
   'LexicalMarkdownShortcutPlugin',
   'LexicalCharacterLimitPlugin',
   'LexicalHashtagPlugin',
+  'LexicalVictorPlugin',
   'LexicalErrorBoundary',
   'LexicalPlainTextPlugin',
   'LexicalRichTextPlugin',
