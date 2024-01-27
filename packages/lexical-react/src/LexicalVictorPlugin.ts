@@ -35,7 +35,7 @@ export function VictorPlugin(): JSX.Element | null {
       return null;
     }
 
-    const hashtagLength = matchArr[0].length + 1;
+    const hashtagLength = matchArr[0].length;
     const startOffset = matchArr.index;
     const endOffset = startOffset + hashtagLength;
     return {
